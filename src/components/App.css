@@ -1,0 +1,44 @@
+html,
+body,
+.app {
+  height: 100vh;
+  background: #eee;
+  padding: 1rem;
+}
+
+/* SidePanel & Channels */
+.menu {
+ padding-bottom: 2rem;
+}
+.messages {
+  height: 62vh;
+  overflow-y: scroll;
+}
+
+.messages__progress {
+  height: 58vh;
+  overflow-y: scroll;
+}
+/* MessageForm.js */
+.messages__form {
+  position: fixed !important;
+  bottom: 1rem;
+  margin-left: 320px !important;
+  left: 0;
+  right: 1rem;
+  z-index: 200;
+}
+/* Message.js */
+.message__self {
+  border-left: 2px solid orange;
+  padding-left: 8px;
+}
+
+.message__image {
+  padding: 1rem;
+}
+
+/* ProgressBar */
+.progress__bar {
+  margin: 0.3rem 0 0 0 !important;
+}
